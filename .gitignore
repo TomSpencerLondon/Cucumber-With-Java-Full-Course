@@ -1,0 +1,9 @@
+/build/*.*
+/out/*.*
+/shelf/
+/workspace.xml
+/.idea
+/.gradle/
+/build/
+/gradle/
+/.gradle/
