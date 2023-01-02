@@ -64,7 +64,7 @@ public class BasicStepDefinitions {
         assertThat(mostPopularTopic, is(not(equalTo(topic))));
     }
 
-    @When("I search for the book with title {string} and topic {Topic}")
+    @When("I search for the book with title {string} and topic {}")
     public void iSearchForTheBookWithTitleAndTopicNOVEL(String title, Topic topic) {
         book = library.getBookWithTitle(title);
         Assert.assertNotNull(book);
